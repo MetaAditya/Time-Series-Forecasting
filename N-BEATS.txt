@@ -1,0 +1,15 @@
+Neural basis expansion analysis for interpretable time series forecasting
+abbreviated as N-BEATS.
+
+Like TFT is an interpretable model.
+Has deep stack of layers, each layers capable of catching a particular aspect of time series.
+
+The link
+https://arxiv.org/abs/1905.10437
+shall give us all the details.
+
+The main aspects caught by N-BEATS are
+1)Trend
+2)Seasonality
+
+Not sure if it can work with covariates. 

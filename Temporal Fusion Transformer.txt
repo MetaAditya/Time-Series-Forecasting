@@ -1,0 +1,16 @@
+The code is directly taken from pytorch forecasting website.
+Here Temporal Fusion Transformer is being used for forecasting.
+
+Why TFT?
+1)Interpretability. Can point which variables significantly affects the output.
+2)Capable of multihorizon forecasting.
+3)Takes in to consideration, Covraites. Earlier methods were based on Autoregression.
+4)Has gating networks to filter out irrelevant factors.
+5)Will consider long term dependencies.
+6)Will take in to account temporal patterns. These are patterns in a data window snapshot that
+  shape the time series.
+
+
+Pytorch forecasting is very handy.
+Pytorch timeseries dataset considers all the inputs that are necessary to feed it to the network.
+
